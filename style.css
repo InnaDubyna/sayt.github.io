@@ -1,0 +1,87 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+header, footer {
+  background-color: #38b6ff;
+  padding: 10px;
+}
+
+.footer-columns {
+  display: flex;
+}
+
+.footer-column {
+  flex: 50%;
+  margin: 20px;
+}
+main {
+  padding: 10px;
+  background-color: silver;
+}
+
+.post {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.post img {
+  margin: 20px;
+  border-radius: 25px;
+}
+
+ /** blok for menu **/  
+.top-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.top-menu img{
+  height: 100px;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+li a:hover {
+  background-color: #316fe0;
+}
+
+/** for slider **/
+#carouselExampleIndicators img{
+  height: 600px;
+}
+.carousel{
+width: 80%;
+margin: 15px;
+position: absolute;
+left: 56%;
+margin-left: -45%; /** ширина поділити на 2  **/
+}
+.myslider{
+  background-color: #C3C3C3;
+  padding: 15px;
+}
+
+h3{
+  font-family: 'Sigmar', cursive;
+}
+
+.post1 h3{
+  text-align: center;
+}
+.post1 iframe{
+  margin: 15px;
+}
